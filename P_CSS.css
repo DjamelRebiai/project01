@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+/* ====================================image */
+.c {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* المسافة بين الإطارات */
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden; /* للتأكد من أن الصورة والنص لا يتجاوزان الحواف المنحنية */
+    background-color: #ffffff;
+}
+
+.c1_1 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* العرض الأقصى للصورة يتوافق مع عرض الإطار */
+    object-fit: cover;
+}
+
+.c1_2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.c1_2 p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.login-button img{
+    width: 50px; /* حجم الشعار */
+    height: 50px; /* حجم الشعار */
+    border-radius: 50%; /* لجعل الصورة دائرية */
+    border-radius: 50%; 
+    display: block;
+}
+.login-button {
+ 
+    display: flex;
+    align-items: center; /* لضمان أن كل العناصر متوسّطة عموديًا */
+    justify-content: space-between; /* لتوزيع المسافة بين العناصر */
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(46, 87%, 63%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    
+}
+
+.login-button a {
+    padding: 10px 20px;
+    background-color:#04a011;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+.login-button a:hover {
+    background-color: #41c25d;
+   
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #04a011;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    background-color: #04a011;
+}
